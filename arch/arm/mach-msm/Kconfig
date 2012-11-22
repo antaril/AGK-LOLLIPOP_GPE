@@ -1792,6 +1792,7 @@ config MSM_CPU_FREQ_MIN
 endif # CPU_FREQ_MSM
 
 
+
 config CPU_OVERCLOCK
 	bool "Enable CPU Overclocking option"
 	default n
@@ -1821,11 +1822,14 @@ config MSM_CPUFREQ_LIMITER
 
 	  If in doubt, say N.
 
+
 config CPU_VOLTAGE_TABLE
 	bool "Enable CPU Voltage Table via sysfs for adjustements"
 	default n
 	help
 	  Krait User Votlage Control
+
+
 
 
 config MSM_CPU_AVS
